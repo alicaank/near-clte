@@ -12,9 +12,12 @@ export class Game {
         const random = new RNG<i32>(1, 100); // random number between 1 and 100
         this.counter =random.next(); //assigne random number between 1 and 100
         this.owner = Context.sender;
+        // set the pot to 0
         this.pot=u128.Zero;
     }
     increasePot(amount: u128): void {
+      // increase the pot by the amount of the deposit
+      // decrease the counter
         this.counter -= 1;
         this.pot = u128.add(this.pot, amount);
     }
