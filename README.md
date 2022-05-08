@@ -12,9 +12,9 @@ in order to install all of the necessary packages for the project to run correct
 
 ## Building and Deploying the contract
 
-The contract is located in under the ***assembly*** folders, after editing the contract you can run
+The contract is located in under the assembly folders, after editing the contract you can run
     yarn build
-in order to build the contract and get the ***.wasm*** file.
+in order to build the contract and get the .wasm file.
 
 If you want to build and deploy the contract for update, at the same time, you can run 
     yarn dev
@@ -28,10 +28,7 @@ After the contract is deployed, it is necessary to run the following command in 
 
 ## Running the contract
 
-**Running contract in the terminal**
-If you want to run the contract in the terminal:
-
- The game can be played using the Play function. 
+The game can be played using the Play function. 
  
 
 # Functions
