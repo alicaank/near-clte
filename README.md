@@ -1,7 +1,7 @@
 ```
 # Near - Come Last, Take Everything.
 
-A small game where a user can create a chance game. When the game is created, a random number between 1-100 chosen as a counter.  Each time the play function is called, counter is reduced by 1 and the player who sets the counter to 0 wins the game.
+It is a small game where a user can create a chance game.. When the game is created, a random number between 1-100 chosen as a counter.  Each time the play function is called, counter is reduced by 1 and the player who sets the counter to 0 wins the game.
 
 
 # Cloning the project
