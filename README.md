@@ -41,5 +41,17 @@ The game can be played using the Play function.
 `near call $CONTRACT play --account_id $NEAR_ACCOUNT --amount 0.1
 
 
+# Scripts
+##Deploy
+You can run scripts/deploy.sh for build and deploy the contract.
+
+##Run
+Before run scripts/run.sh
+You should run following commands in the terminal
+export ACCOUNT_ID=account_id
+export CONTRACT=ACCOUNT_ID // If you are creator
+export CONTRACT=contract_address // If you are player
+export AMOUNT=amount of money you want to use for game
+
 
 ```

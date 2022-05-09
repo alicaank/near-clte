@@ -1,0 +1,1 @@
+near call $CONTRACT play --account_id $NEAR_ACCOUNT --amount $AMOUNT
